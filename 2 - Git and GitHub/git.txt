@@ -35,3 +35,7 @@ git config user.email
 
     - Switch to another branch
     git checkout feature
+
+
+    
+    NOTES: to merge brance to  the master you need to be in the master tree first
