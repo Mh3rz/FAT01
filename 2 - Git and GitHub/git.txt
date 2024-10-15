@@ -21,3 +21,17 @@ git config user.email
 
     - Initialize a Repository
     git init
+
+
+    -BRANCHING
+
+    - See if how many branch we have
+    git branch -a
+
+    - Create a branch or isolated environment
+    git branch "BranchName"
+    or 
+    git brance BranchName
+
+    - Switch to another branch
+    git checkout feature
