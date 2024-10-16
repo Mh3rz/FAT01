@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="fullname-id">Name:</label>
+            <input type="text" 
+            name="user-fullname"
+            id="fullname-id"
+            placeholder="Jose Rizal"
+            required >
+        </div>
+        <div>
+            <label for="email-id">Email:</label>
+            <input type="email" 
+            name="user-email" 
+            id="email-id" 
+            placeholder="joserizal@example.com"
+            required>
+        </div>
+        <div>
+            <label for="password-id">Password:</label>
+            <input type="password" 
+            name="user-password" 
+            id="password-id" 
+            placeholder="***********"
+            required
+            >
+        </div>
+        <div>
+            <label for="age-id">Age:</label>
+            <input type="number" 
+            name="user-age" 
+            id="age-id" 
+            placeholder="18"
+            min="18"
+            max="40"
+            required
+            >
+        </div>
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+    </form>
+</body>
+</html>
