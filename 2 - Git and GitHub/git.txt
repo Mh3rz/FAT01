@@ -13,7 +13,7 @@ git config user.email
     git add .
 
     - create a commit
-    git commit - m "Description
+    git commit -m "Description
 
     - Check the history
     git log
@@ -31,7 +31,7 @@ git config user.email
     - Create a branch or isolated environment
     git branch "BranchName"
     or 
-    git brance BranchName
+    git branch BranchName
 
     - Switch to another branch
     git checkout feature
